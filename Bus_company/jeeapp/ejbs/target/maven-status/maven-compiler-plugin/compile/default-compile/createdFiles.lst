@@ -1,0 +1,3 @@
+beans/ManageSystem.class
+beans/IManageSystem.class
+beans/SheduleMailSender.class

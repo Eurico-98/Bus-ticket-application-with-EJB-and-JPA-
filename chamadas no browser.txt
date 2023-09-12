@@ -1,0 +1,69 @@
+Como ligar:
+abrir o docker
+abrir a pasta do projeto no vcode
+depois de fazer reopen in container
+na consola ir para dentro da pasta que tem o pom.xml e correr:
+mvn install
+mvn wildfly:deploy
+
+----------------------------------- COMPILAÇÃO NA COMSOLA
+para compilar e correr a aplicação
+na consola: mvn clean package wildfly:deploy
+
+
+- passwords das contas sao iguais ao nome
+
+------------------------------------ PARA O GERADOR DE ENTIDADES
+depois de ter a aplicação principal a correr
+compilar a aplicação Gerador_enidades com javac e n sei mais o que
+para executar e so correr na consola:
+java -jar (nome da aplicao compilada esta na pasta target).jar
+
+
+------------------------------------ CORRER NO BROWSER
+http://localhost:8080/web/registration.html
+http://localhost:8080/web/authentication.html
+
+------------------------------------ COMO IR A BD
+no docker abrir o cli
+
+fazer 
+psql -U postgres
+\c school
+
+e pronto
+
+\dt mostra as tabelas que tenho
+
+
+----------------------------------- CONTA E PASS PARA USAR NO METODO DOS MAILS
+pass da conta mail: htaihrvyfoibyqtf - isto é a pass do gmail mesmo não é a que esta na BD
+conta para enviar: contaparatrabalhos93@gmail.com
+------------------------------------------------------------------------------
+
+formato da data está: yyyy-dd-mm HH:MM:SS
+
+----------------------------------- COMO IR AO HAL MANAGEMENT DO wildfly
+http://localhost:9990
+
+credenciais para este projeto
+user: admin
+pass: admin#7rules
+
+------------------------------------------------------------------------------------------
+
+delete from locations where locationid = 1;
+delete from locations where locationid = 2;
+delete from locations where locationid = 3;
+delete from locations where locationid = 4;
+delete from locations where locationid = 5;
+delete from locations where locationid = 6;
+delete from locations where locationid = 7;
+delete from locations where locationid = 8;
+delete from locations where locationid = 9;
+delete from locations where locationid = 10;
+delete from locations where locationid = 11;
+delete from locations where locationid = 12;
+delete from locations where locationid = 13;
+delete from locations where locationid = 14;
+delete from locations where locationid = 15;
